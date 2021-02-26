@@ -1,0 +1,30 @@
+assassin bot ideas:
+
+- startup:
+         - greeting message or some shit
+         - info about this bot
+         - will send the startup embed when bot is invited
+
+-  notifier (using role assignments and will dm the user's dms for:
+         - comp releases, update releases, etc...
+
+- commands for:
+         - bot uptime, 
+         - reminder command
+         - server details
+         
+
+- assassin commands to see:
+         - 1v1 history between someone
+         - assassin achievements
+         - assassin scrim servers (like dom, wond, shoez etc... in tourneys)
+         - assassin economy (show average values of all knifes in category)
+         - who owns the ban hammer list
+         - value list update notifier
+
+- admin commands:
+         - blacklist people
+
+
+
+commands for only admins:

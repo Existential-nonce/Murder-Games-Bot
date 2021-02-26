@@ -1,0 +1,68 @@
+const Discord = require('discord.js');
+const { _embed } = require('../../../../data/embeds.json');
+
+const embed = new Discord.MessageEmbed()
+	.setColor(_embed)
+	.setAuthor()
+	.setThumbnail()
+	.addFields(
+		{name: "__**Name:**__", value: "", inline: true},
+		{name: "__**Value:**__", value: "", inline: true},
+		{name: "__**Demand:**__", value: "", inline: true},
+		{name: "__**Rarity:**__", value: "", inline: true},
+		{name: "__**Origin:**__", value: "", inline: true},
+		{name: "__**Obtained:**__", value: "", inline: true}
+	)
+message.channel.send(embed)
+
+
+
+
+
+
+
+if (message.author.id != "699310549573435423") {
+    return message.reply("You need to be a bot administrator to access this command!")
+}
+
+
+
+
+
+
+const Discord = require('discord.js');
+
+// inside a command, event listener, etc.
+const exampleEmbed = new Discord.MessageEmbed()
+	.setColor('#0099ff')
+	.setTitle('Some title')
+	.setURL('https://discord.js.org/')
+	.setAuthor('Some name', 'https://i.imgur.com/wSTFkRM.png', 'https://discord.js.org')
+	.setDescription('Some description here')
+	.setThumbnail('https://i.imgur.com/wSTFkRM.png')
+	.addFields(
+		{ name: 'Regular field title', value: 'Some value here' },
+		{ name: '\u200B', value: '\u200B' },
+		{ name: 'Inline field title', value: 'Some value here', inline: true },
+		{ name: 'Inline field title', value: 'Some value here', inline: true },
+	)
+	.addField('Inline field title', 'Some value here', true)
+	.setImage('')
+	.setTimestamp()
+	.setFooter('', '');
+
+channel.send(exampleEmbed);
+
+
+
+
+const RAM_stats = (`${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)} MB`)
+
+
+
+
+
+const = new Discord.MessageEmbed()
+    .setColor(_embed)
+    .setDescription(``)
+message.channel.send(noReload_embed);
