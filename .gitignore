@@ -1,4 +1,2 @@
-node_modules/
 unfinished_stuff/
-packages/
-data/config.json
+config.json
