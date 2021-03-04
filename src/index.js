@@ -4,8 +4,6 @@ const Discord = require('discord.js');
 const { prefix, token } = require('./data/config.json');
 const { error_embed } = require('./data/embeds.json');
 
-// const { config } = require('process');
-
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
