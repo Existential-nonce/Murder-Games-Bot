@@ -25,4 +25,5 @@
 - [] make an info command, something like a readme file but in a discord embed
     - [] add the github repo link too btw
 - [] modlist command
+- [] make a command that can interact with the roblox API and display the stats of the game (current players, favorites, last updates etc...)
 
