@@ -10,7 +10,7 @@ module.exports = {
 		const embed = new Discord.MessageEmbed()
 			.setColor(ancient_embed)
 			.setAuthor('Fanged Basilisk', 'https://media.discordapp.net/attachments/747913618284347527/817100934668484628/oie_g27W8y3zOLJJ.png')
-			.setThumbnail()
+			.setThumbnail('https://media.discordapp.net/attachments/747913618284347527/817514927212068944/Fanged_Basilisk.png')
 			.setDescription('\u200B')
 			.addFields(
 				{name: "__**Value:**__", value: "5", inline: true},

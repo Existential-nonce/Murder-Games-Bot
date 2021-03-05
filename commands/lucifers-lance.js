@@ -10,7 +10,7 @@ module.exports = {
 		const embed = new Discord.MessageEmbed()
 			.setColor(divine_embed)
 			.setAuthor("Lucifer's Lance", 'https://media.discordapp.net/attachments/747913618284347527/817100934668484628/oie_g27W8y3zOLJJ.png')
-			.setThumbnail()
+			.setThumbnail('https://cdn.discordapp.com/attachments/801794541236781057/817512884715782214/Lucifers_Lance.png')
 			.setDescription('\u200B')
 			.addFields(
 				{name: "__**Value:**__", value: "55", inline: true},
@@ -20,7 +20,7 @@ module.exports = {
 				{name: "__**Obtained:**__", value: "Unboxing", inline: true},
 				{name: "\u200B", value: "\u200B"}
 			)
-			.setFooter("LAST UPDATED: ")
+			.setFooter("LAST UPDATED: 05/03/21")
 		message.channel.send(embed)
 		
 	},

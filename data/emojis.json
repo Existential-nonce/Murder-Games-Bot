@@ -13,11 +13,7 @@
 
     "status_green": "<:3832_status_online:799593725730619413>",
     "status_yellow": "<:6708_status_idle:799593753673072640>",
-    "status_red": "<:2267_status_dnd:799593764666343424>",
-
-    "e_json": "<:file_type_light_json_icon_130455:798847271705378816>",
-    "e_bkd": "<:766359910589792266:798166258834866177>",
-    "e_lib": "<:logosquare:798774215532609586>"
+    "status_red": "<:2267_status_dnd:799593764666343424>"
 }   
 
 

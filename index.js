@@ -1,8 +1,9 @@
 /* eslint-disable no-unused-vars */
 const fs = require('fs');
 const Discord = require('discord.js');
+
 const { prefix, token } = require('./config.json');
-const { error_embed } = require('./data/embeds.json');
+const { admin_list } = require('./data/admin_list.json')
 
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
@@ -16,12 +17,13 @@ for (const file of commandFiles) {
 }
 const cooldowns = new Discord.Collection()
 
-var modlist = ["699310549573435423", ]
+
+//====================== ⬇️ MAIN CODE ⬇️ ======================
 
 
-// bot startup + misc stuff
+// bot startup + profile settings
 client.once('ready', () => {
-	client.user.setActivity(`${prefix}help`)
+	client.user.setActivity(`${prefix}help`, {type: 'LISTENING'});
 	console.log('Ready!');
 });
 
@@ -43,13 +45,13 @@ client.on('message', message => {
 		return message.reply("I can't execute that command inside DMs!");
 	}
 
-	//bot admin perm functionality
+	//bot admin permission check functionality
 	if (command.administrator) {
-		if (message.author.id != "699310549573435423") {
-			return message.reply("You need to be a bot administrator to access this command!");
+		if (admin_list.includes(message.author.id)) {
+			console.log(` - "${commandName}" command used by ${message.author.tag}`)
 		}
 		else {
-			console.log(` - "${commandName}" command used by ${message.author.tag}`)
+			return message.reply("You need to be a bot administrator to access this command!");
 		}	
 	}
 
@@ -72,6 +74,7 @@ client.on('message', message => {
 		return message.channel.send(reply);
 	}
 
+	// set cooldown collection 
 	if (!cooldowns.has(command.name)) {
 		cooldowns.set(command.name, new Discord.Collection());
 	}
@@ -84,14 +87,12 @@ client.on('message', message => {
 		const expirationTime = timestamps.get(message.author.id) + cooldownAmount;
 		if (now < expirationTime) {
 			const timeLeft = (expirationTime - now) / 1000;
-			const cooldownEmbed = new Discord.MessageEmbed()
-				.setColor(error_embed)
-				.setDescription(`\`\`\`Please wait ${timeLeft.toFixed(1)} more second(s) before reusing the "${command.name}" command.\`\`\``)
-			message.channel.send(cooldownEmbed)
+			message.reply(`Please wait ${timeLeft.toFixed(1)} more second(s) before reusing the "${command.name}" command.`)
 			return;
 		}
 	}
 
+	// timeout functionality
 	timestamps.set(message.author.id, now);
 	setTimeout(() => timestamps.delete(message.author.id), cooldownAmount);
 
@@ -100,10 +101,7 @@ client.on('message', message => {
 		command.execute(message, args);
 	} catch (error) {
 		console.error(error);
-		const errorEmbed = new Discord.MessageEmbed()
-			.setColor(error_embed)
-			.setDescription(`\`\`\`There was an error trying to execute that command!\`\`\``)
-		message.channel.send(errorEmbed);
+		message.reply(`There was an error trying to execute that command!\n`);
 	}
 
 });

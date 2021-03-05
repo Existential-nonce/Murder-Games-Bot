@@ -3,14 +3,14 @@ const { ancient_embed } = require('../data/embeds.json');
 
 module.exports = {
 	name: "darkage-kunai",
-	aliases: ['darkage', 'kunai', 'darkagekunai', 'dark-kunai'],
+	aliases: ['kunai', 'darkagekunai', 'dark-kunai'],
 	cooldown: 4,
 	execute(message) {
 
 		const embed = new Discord.MessageEmbed()
 			.setColor(ancient_embed)
 			.setAuthor('Darkage Kunai', 'https://media.discordapp.net/attachments/747913618284347527/817100934668484628/oie_g27W8y3zOLJJ.png')
-			.setThumbnail()
+			.setThumbnail('https://media.discordapp.net/attachments/747913618284347527/817514544581967902/Darkage_Kunai.png')
 			.setDescription('\u200B')
 			.addFields(
 				{name: "__**Value:**__", value: "5", inline: true},

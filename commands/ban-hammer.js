@@ -9,8 +9,8 @@ module.exports = {
 
 		const embed = new Discord.MessageEmbed()
 			.setColor(divine_embed)
-			.setAuthor('Ban hammer', 'https://media.discordapp.net/attachments/747913618284347527/817100934668484628/oie_g27W8y3zOLJJ.png')
-			.setThumbnail()
+			.setAuthor('Ban Hammer', 'https://media.discordapp.net/attachments/747913618284347527/817100934668484628/oie_g27W8y3zOLJJ.png')
+			.setThumbnail("https://media.discordapp.net/attachments/801794541236781057/817510252885835827/Ban_Hammer.png")
 			.setDescription('\u200B')
 			.addFields(
 				{name: "__**Value:**__", value: "???", inline: true},

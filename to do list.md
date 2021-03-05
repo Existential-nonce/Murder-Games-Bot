@@ -6,7 +6,7 @@
 - [] complete the `README.md` file with all the details and info
 - [] figure out how to host the bot on heroku
 - [] don't forget to add a v.1.0.0 release tag version on the github page before publishing
-- [] set the bot's status as 'invisible' when using the `exit` command
+- [] add the shields.io metadata badges to the `README.md` file (https://shields.io/category/activity)
 
 ### ITEMS:
 - [x] finish the divine category
@@ -23,10 +23,12 @@
 - [] finish the `credits` command
 - [] make an info command, something like a readme file but in a discord embed
     - [] add the github repo link too btw
-- [] modlist command
 - [] make a command that can interact with the roblox API and display the stats of the game (current players, favorites, last updates etc...)
+- [x] finish making the help command with admin commands too
+- [] blacklist command
 
 ### ISSUES:
 - [] cannot put all the folders in a `src` folder, ENOENT scandir error with `./commands`
 - [] find out a way to make an advanced command handler that can navigate through folders and subfolders
 - [] make the `clear-console` and `exit` commands more efficient
+- [] figure out how to set the bot's status to invisible in the `exit` command
