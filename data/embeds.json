@@ -1,0 +1,14 @@
+{
+    "admin_embed": "#757575",
+    "normal_embed": "#bb3624",
+    "error_embed": "#ad1501",
+
+    "admin_title": "<:777962808792317954:798774241617117185> Admin panel <:777962808792317954:798774241617117185>",
+
+    "divine_embed": "#f1c232",
+    "ancient_embed": "#cc0000",
+    "mystic_embed": "#00ffff",
+    "legendary_embed": "#9900ff",
+    "rare_embed": "#0000ff",
+    "common_embed": "#00ff00"
+}

@@ -5,8 +5,7 @@
 - [] figure out how to set the prefixe command for each server's cache thingy idfk
 - [] complete the `README.md` file with all the details and info
 - [] figure out how to host the bot on heroku
-- [] not forget to add a v.1.0.0 release tag version on the github page before publishing
-- [] find out a way to make an advanced command handler that can navigate through folders and subfolders
+- [] don't forget to add a v.1.0.0 release tag version on the github page before publishing
 - [] set the bot's status as 'invisible' when using the `exit` command
 
 ### ITEMS:
@@ -27,3 +26,7 @@
 - [] modlist command
 - [] make a command that can interact with the roblox API and display the stats of the game (current players, favorites, last updates etc...)
 
+### ISSUES:
+- [] cannot put all the folders in a `src` folder, ENOENT scandir error with `./commands`
+- [] find out a way to make an advanced command handler that can navigate through folders and subfolders
+- [] make the `clear-console` and `exit` commands more efficient
