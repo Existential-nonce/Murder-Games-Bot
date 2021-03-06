@@ -5,10 +5,10 @@
 
     "admin_title": "<:777962808792317954:798774241617117185> Admin panel <:777962808792317954:798774241617117185>",
 
-    "divine_embed": "#f1c232",
-    "ancient_embed": "#cc0000",
-    "mystic_embed": "#00ffff",
-    "legendary_embed": "#9900ff",
-    "rare_embed": "#0000ff",
-    "common_embed": "#00ff00"
+    "divine": "#f1c232",
+    "ancient": "#cc0000",
+    "mystic": "#00ffff",
+    "legendary": "#9900ff",
+    "rare": "#0000ff",
+    "common": "#00ff00"
 }

@@ -11,8 +11,8 @@
 ### ITEMS:
 - [x] finish the divine category
 - [x] finish the ancient category
-- [] finish the mystic category
-- [] finish the legendary category
+- [x] finish the mystic category
+- [x] finish the legendary category
 - [] finish the rare category
 - [] finish the common category
 

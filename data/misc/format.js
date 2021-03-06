@@ -33,16 +33,16 @@ module.exports = {
 
 
 const Discord = require('discord.js');
-const { mystic_embed } = require('../data/embeds.json');
+const { legendary } = require('../data/embeds.json');
 
 module.exports = {
 	name: "",
-	aliases: ['', ''],
+	aliases: [''],
 	cooldown: 4,
 	execute(message) {
 
 		const embed = new Discord.MessageEmbed()
-			.setColor(mystic_embed)
+			.setColor(legendary)
 			.setAuthor('', 'https://media.discordapp.net/attachments/747913618284347527/817100934668484628/oie_g27W8y3zOLJJ.png')
 			.setThumbnail('')
 			.setDescription('\u200B')
@@ -50,8 +50,8 @@ module.exports = {
 				{name: "__**Value:**__", value: "", inline: true},
 				{name: "__**Demand:**__", value: "", inline: true},
 				{name: "__**Rarity:**__", value: "", inline: true},
-				{name: "__**Origin:**__", value: "", inline: true},
-				{name: "__**Obtained:**__", value: "", inline: true},
+				{name: "__**Origin:**__", value: "Premium Case/Craft", inline: true},
+				{name: "__**Obtained:**__", value: "Unboxing/Crafting", inline: true},
 				{name: "\u200B", value: "\u200B"}
 			)
 			.setFooter("LAST UPDATED: 05/03/21")

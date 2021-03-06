@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const { mystic_embed } = require('../data/embeds.json');
+const { mystic } = require('../data/embeds.json');
 
 module.exports = {
 	name: "apex",
@@ -7,7 +7,7 @@ module.exports = {
 	execute(message) {
 
 		const embed = new Discord.MessageEmbed()
-			.setColor(mystic_embed)
+			.setColor(mystic)
 			.setAuthor('Apex', 'https://media.discordapp.net/attachments/747913618284347527/817100934668484628/oie_g27W8y3zOLJJ.png')
 			.setThumbnail('https://media.discordapp.net/attachments/747913618284347527/817519182593130506/Apex.png')
 			.setDescription('\u200B')

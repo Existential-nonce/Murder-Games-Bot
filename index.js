@@ -1,3 +1,6 @@
+//====================== ⬇️ BOILERPLATE CODE ⬇️ ======================
+
+
 /* eslint-disable no-unused-vars */
 const fs = require('fs');
 const Discord = require('discord.js');
