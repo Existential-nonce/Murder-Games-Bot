@@ -6,6 +6,7 @@ const fs = require('fs');
 const Discord = require('discord.js');
 
 const { prefix } = require('./config.json');
+const { config } = require('./config.json');
 const { admin_list } = require('./data/admin_list.json')
 
 const client = new Discord.Client();
@@ -26,7 +27,7 @@ const cooldowns = new Discord.Collection()
 
 // bot startup + profile settings
 client.once('ready', () => {
-	client.user.setActivity(`${prefix}help`, {type: 'LISTENING'});
+	client.user.setActivity(`${prefix}help`, {type: `${config.type}`});
 	console.log('Ready!');
 });
 
