@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const { divine_embed } = require('../data/embeds.json');
+const { divine } = require('../data/embeds.json');
 
 module.exports = {
 	name: "lucifer's-lance",
@@ -8,7 +8,7 @@ module.exports = {
 	execute(message) {
 
 		const embed = new Discord.MessageEmbed()
-			.setColor(divine_embed)
+			.setColor(divine)
 			.setAuthor("Lucifer's Lance", 'https://media.discordapp.net/attachments/747913618284347527/817100934668484628/oie_g27W8y3zOLJJ.png')
 			.setThumbnail('https://cdn.discordapp.com/attachments/801794541236781057/817512884715782214/Lucifers_Lance.png')
 			.setDescription('\u200B')
