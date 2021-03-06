@@ -1,7 +1,7 @@
 {
-  "name": "Template-bot",
+  "name": "Murder-Games-Bot",
   "version": "1.0.0",
-  "description": "Some skeleton code for discord bots. This was designed as a template for my future projects and I don't recommend anyone using this as it's unfinished, buggy and requires further fixes that I haven't fixed yet.",
+  "description": "A bot for the roblox game 'Murder Games'",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

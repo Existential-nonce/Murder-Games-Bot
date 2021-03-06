@@ -1,13 +1,10 @@
-//====================== ⬇️ BOILERPLATE CODE ⬇️ ======================
+//============================ ⬇️ BOILERPLATE CODE ⬇️ ============================
 
 
 /* eslint-disable no-unused-vars */
 const fs = require('fs');
 const Discord = require('discord.js');
-
-const { prefix } = require('./config.json');
-const { config } = require('./config.json');
-const { admin_list } = require('./data/admin_list.json')
+const config = require('./config.json');
 
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
@@ -22,22 +19,22 @@ for (const file of commandFiles) {
 const cooldowns = new Discord.Collection()
 
 
-//====================== ⬇️ MAIN CODE ⬇️ ======================
+//=============================== ⬇️ MAIN CODE ⬇️ ===============================
 
 
 // bot startup + profile settings
 client.once('ready', () => {
-	client.user.setActivity(`${prefix}help`, {type: `${config.type}`});
+	client.user.setActivity(`${config.prefix}help`, {type: `${config.type}`});
 	console.log('Ready!');
 });
 
 client.on('message', message => {
 
-	// if message doesn't start with prefix or message author = bot, exit early.
-	if (!message.content.startsWith(prefix) || message.author.bot) return;
+	// if message doesn't start with config.prefix or message author = bot, exit early.
+	if (!message.content.startsWith(config.prefix) || message.author.bot) return;
 
-	// prefix slicing functionality
-	const args = message.content.slice(prefix.length).trim().split(/ +/);
+	// config.prefix slicing functionality
+	const args = message.content.slice(config.prefix.length).trim().split(/ +/);
 	const commandName = args.shift().toLowerCase();
 	const command = client.commands.get(commandName) || client.commands.find(cmd => cmd.aliases && cmd.aliases.includes(commandName));
 
@@ -51,7 +48,7 @@ client.on('message', message => {
 
 	//bot admin permission check functionality
 	if (command.administrator) {
-		if (admin_list.includes(message.author.id)) {
+		if (config.admin_list.includes(message.author.id)) {
 			console.log(` - "${commandName}" command used by ${message.author.tag}`)
 		}
 		else {
@@ -73,7 +70,7 @@ client.on('message', message => {
 
 		// proper command usage functionality
 		if (command.usage) {
-			reply += `\nThe proper usage would be: \`${prefix}${command.name} ${command.usage}\``;
+			reply += `\nThe proper usage would be: \`${config.prefix}${command.name} ${command.usage}\``;
 		}
 		return message.channel.send(reply);
 	}
@@ -111,3 +108,4 @@ client.on('message', message => {
 });
 
 client.login(process.env.TOKEN);
+

@@ -1,4 +1,12 @@
 {
     "prefix": ">",
-    "type": "LISTENING"
+    "avatar": "./data/logo/M_logo_small.png",
+    "activity": "${config.prefix}help",
+    "type": "LISTENING",
+    "status": "online",
+    
+    "admin_list": [
+        "699310549573435423",
+        "290120931689365504"
+    ]
 }

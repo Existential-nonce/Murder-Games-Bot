@@ -2,7 +2,7 @@
 
 ### GENERAL:
 * [x] create a png image thumbnail for each item
-* [] figure out how to set the prefix command for each server's cache thingy idfk
+* [] figure out how to set the config.prefix command for each server's cache thingy idfk
 * [] complete the `README.md` file with all the details and info
 * [] figure out how to host the bot on heroku
 * [] don't forget to add a v.1.0.0 release tag version on the github page before publishing

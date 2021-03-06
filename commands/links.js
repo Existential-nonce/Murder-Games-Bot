@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const { normal_embed } = require('../data/embeds.json');
-const { e_git } = require('../data/emojis.json')
+const emojis = require('../data/emojis.json')
 
 module.exports = {
 	name: "links",
@@ -16,7 +16,7 @@ module.exports = {
 				{name: "__**Royalty Studios! Group link**__", value: "> - [Click here](https://www.roblox.com/groups/7833561/Royalty-Studios#!/about)"},
 				{name: "__**Value list site link:**__", value: "> - [Click here](https://sites.google.com/view/murdergamesvalues/home?authuser=0)"},
 				{name: "\u200B", value: "\u200B"},
-				{ name: '__GitHub repository link:__', value: `> ${e_git} - [Click here](https://github.com/Existential-nonce/Murder-Games-Bot)` }
+				{ name: '__GitHub repository link:__', value: `> ${emojis.git} - [Click here](https://github.com/Existential-nonce/Murder-Games-Bot)` }
             )
 		message.channel.send(embed)
 
