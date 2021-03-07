@@ -13,7 +13,7 @@ module.exports = {
             .setColor(normal_embed)
             .setTitle("📜 Command List 📜")
             .addFields(
-                {name: `__**${p}{item-name}**__`, value: "> - Displays the item's infobox. Make sure to put hyphens instead of spaces."},
+                {name: `__**${p}{item-name}**__`, value: "> - Displays the item's infobox."},
                 {name: `__**${p}ping**__`, value: "> - Pings the bot"},
                 {name: `__**${p}links**__`, value: "> - Displays all the useful links"},
                 {name: `__**${p}credits**__`, value: "> - List of credited developers"},
