@@ -11,6 +11,7 @@ A bot designed for the game "Murder Games" made by Vasilias.
 <img alt="GitHub package" src="https://img.shields.io/github/package-json/v/existential-nonce/murder-games-bot">
 </center>
 
+## To do list:
 
 <details>
     <summary>
