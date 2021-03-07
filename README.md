@@ -1,8 +1,12 @@
 # Murder-Games-Bot
 
-A bot designed for the game "Murder Games" made by Vasilias.
-<br>
+<p>
+    A bot designed for the game "Murder Games" made by Vasilias.
+<p/>
+
+---
 > * [**Invite link**](https://discord.com/api/oauth2/authorize?client_id=814852487110328371&permissions=281600&scope=bot)
+---
 <br>
 
 <p>
@@ -12,7 +16,7 @@ A bot designed for the game "Murder Games" made by Vasilias.
     <img alt="GitHub" align="center" src="https://img.shields.io/github/license/existential-nonce/murder-games-bot">
     <img alt="GitHub package" align="center" src="https://img.shields.io/github/package-json/v/existential-nonce/murder-games-bot">
 </p>
-
+<br>
 
 <details>
     <summary>
