@@ -3,6 +3,13 @@
 A bot designed for the game "Murder Games" made by Vasilias.
 > * [**Invite link**](https://discord.com/api/oauth2/authorize?client_id=814852487110328371&permissions=281600&scope=bot)
 
+<center>
+https://img.shields.io/github/last-commit/existential-nonce/murder-games-bot
+https://img.shields.io/github/release-date/existential-nonce/murder-games-bot
+https://img.shields.io/github/languages/code-size/existential-nonce/murder-games-bot
+https://img.shields.io/github/license/existential-nonce/murder-games-bot
+https://img.shields.io/github/package-json/v/existential-nonce/murder-games-bot
+</center>
 ## To do list:
 <details>
     <summary>
