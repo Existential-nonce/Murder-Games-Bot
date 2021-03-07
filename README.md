@@ -1,16 +1,21 @@
-# Murder-Games-Bot
+<h1 align="center">Murder-Games-Bot</h1>
 
-A bot designed for the game "Murder Games" made by Vasilias.
-> * [**Invite link**](https://discord.com/api/oauth2/authorize?client_id=814852487110328371&permissions=281600&scope=bot)
+<p align="center">
+    A bot designed for the game "Murder Games" made by Vasilias.
+<p/>
+<br>
+<p align="center">===========   <a href="https://discord.com/api/oauth2/authorize?client_id=814852487110328371&permissions=281600&scope=bot"><b>INVITE LINK</b></a>   ===========</p>
+<br>
+<p align="center">
+    <img alt="GitHub last commit" align="center" src="https://img.shields.io/github/last-commit/existential-nonce/murder-games-bot">
+    <img alt="GitHub Release Date" align="center" src="https://img.shields.io/github/release-date/existential-nonce/murder-games-bot">
+    <img alt="GitHub code size in bytes" align="center" src="https://img.shields.io/github/languages/code-size/existential-nonce/murder-games-bot">
+    <img alt="GitHub" align="center" src="https://img.shields.io/github/license/existential-nonce/murder-games-bot">
+    <img alt="GitHub package" align="center" src="https://img.shields.io/github/package-json/v/existential-nonce/murder-games-bot">
+</p>
+<br>
 
-<center>
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/existential-nonce/murder-games-bot">
-<img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/existential-nonce/murder-games-bot">
-<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/existential-nonce/murder-games-bot">
-<img alt="GitHub" src="https://img.shields.io/github/license/existential-nonce/murder-games-bot">
-<img alt="GitHub package" src="https://img.shields.io/github/package-json/v/existential-nonce/murder-games-bot">
-</center>
-
+# To do list:
 
 <details>
     <summary>
