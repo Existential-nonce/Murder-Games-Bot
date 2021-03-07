@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const { divine } = require('../data/embeds.json');
 
 module.exports = {
-	name: "lucifer's-lance",
+	name: "lucifers-lance",
 	aliases: ['luciferslance', 'lucifer', 'lance', 'lucifers-lance', 'lucifer-lance'],
 	cooldown: 4,
 	execute(message) {

@@ -16,7 +16,8 @@ module.exports = {
                 {name: `__**${p}{item-name}**__`, value: "> - Displays the item's infobox."},
                 {name: `__**${p}ping**__`, value: "> - Pings the bot"},
                 {name: `__**${p}links**__`, value: "> - Displays all the useful links"},
-                {name: `__**${p}credits**__`, value: "> - List of credited developers"},
+                {name: `__**${p}invite**__`, value: "> - Invite link for the bot"},
+                {name: `__**${p}credits**__`, value: "> - List of credited developers"}
             )
 		message.channel.send(embed).then(() => {
 
