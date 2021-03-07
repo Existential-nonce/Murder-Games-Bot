@@ -1,7 +1,7 @@
 <h1 align="center">Murder-Games-Bot</h1>
 
 <p align="center">
-    A bot designed for the game "Murder Games" made by Vasilias.
+    A bot designed for the game "Murder Games!" made by Vasilias.
 </p>
 <br>
 <p align="center">===========   <a href="https://discord.com/api/oauth2/authorize?client_id=814852487110328371&permissions=281600&scope=bot"><b>INVITE LINK</b></a>   ===========</p>
