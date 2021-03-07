@@ -3,9 +3,7 @@
 ### GENERAL:
 * [x] create a png image thumbnail for each item
 * [ ] figure out how to set the config.prefix command for each server's cache thingy idfk
-* [ ] complete the `README.md` file with all the details and info
-* [ ] figure out how to host the bot on heroku
-* [ ] don't forget to add a v.1.0.0 release tag version on the github page before publishing
+* [x] figure out how to host the bot on heroku
 * [ ] add the shields.io metadata badges to the `README.md` file (https://shields.io/category/activity)
 * [ ] make a function to easily make the knife module with values and demands as parameters
 
@@ -19,11 +17,10 @@
 
 ### COMMANDS:
 * [ ] make a command that can easily add item files within the `command` folder rather than manually adding each item file
-* [ ] make a command that explains all the rarity shit
 * [ ] make the stats command with all the analytical data stuff (ram, latency, etc..)
-* [ ] finish the `credits` command
+* [x] finish the `credits` command
 * [x] add the github repo link
-* [ ] make a command that can interact with the roblox API and display the stats of the game (current players, favorites, last updates etc...)
+* [ ] make a command that can interact with the API and display the stats of the game (current players, favorites, last updates etc...)
 * [x] finish making the help command with admin commands too
 * [ ] blacklist command
 
