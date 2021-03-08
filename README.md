@@ -8,7 +8,6 @@
 <br>
 <p align="center">
     <img alt="GitHub last commit" align="center" src="https://img.shields.io/github/last-commit/existential-nonce/murder-games-bot">
-    <img alt="GitHub Release Date" align="center" src="https://img.shields.io/github/release-date/existential-nonce/murder-games-bot">
     <img alt="GitHub code size in bytes" align="center" src="https://img.shields.io/github/languages/code-size/existential-nonce/murder-games-bot">
     <img alt="GitHub" align="center" src="https://img.shields.io/github/license/existential-nonce/murder-games-bot">
 </p>
