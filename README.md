@@ -11,7 +11,6 @@
     <img alt="GitHub Release Date" align="center" src="https://img.shields.io/github/release-date/existential-nonce/murder-games-bot">
     <img alt="GitHub code size in bytes" align="center" src="https://img.shields.io/github/languages/code-size/existential-nonce/murder-games-bot">
     <img alt="GitHub" align="center" src="https://img.shields.io/github/license/existential-nonce/murder-games-bot">
-    <img alt="GitHub package" align="center" src="https://img.shields.io/github/package-json/v/existential-nonce/murder-games-bot">
 </p>
 <br>
 
