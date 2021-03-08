@@ -5,6 +5,7 @@
 const fs = require('fs');
 const Discord = require('discord.js');
 const config = require('./config.json');
+const embeds = require('./data/embeds.json');
 
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
@@ -103,6 +104,13 @@ client.on('message', message => {
 	} catch (error) {
 		console.error(error);
 		message.reply(`There was an error trying to execute that command!\n`);
+		if (config.admin_list.includes(message.author.id)) {
+			const errorEmbed = new Discord.MessageEmbed()
+				.setTitle(`${embeds.admin_title}`)
+				.setColor(`${embeds.admin_embed}`)
+				.setDescription(`\`\`\`${error}\`\`\``)
+			message.channel.send(errorEmbed)
+		}
 	}
 
 });
