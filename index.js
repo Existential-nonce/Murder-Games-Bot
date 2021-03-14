@@ -108,7 +108,7 @@ client.on('message', message => {
 			const errorEmbed = new Discord.MessageEmbed()
 				.setTitle(`${embeds.admin_title}`)
 				.setColor(`${embeds.admin_embed}`)
-				.setDescription(`\`\`\`${error}\`\`\``)
+				.setDescription(`\`\`\`${error.message}\`\`\``)
 			message.channel.send(errorEmbed)
 		}
 	}
