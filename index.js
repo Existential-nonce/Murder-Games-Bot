@@ -97,6 +97,11 @@ client.on('message', message => {
 	// timeout functionality
 	timestamps.set(message.author.id, now);
 	setTimeout(() => timestamps.delete(message.author.id), cooldownAmount);
+	
+	// display DM on console functionality
+	if (!message.guild) {
+		return console.log(`New Message in DMs: ${message.content}`)
+	}
 
 	// error functionality
 	try {
